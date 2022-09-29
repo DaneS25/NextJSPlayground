@@ -38,6 +38,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   background-color: #fb71ad;
+  box-shadow: 0 15px 25px rgba(250, 4, 189, 0.7);
 }
 .nav__menu-bar{
   display: flex;
@@ -125,7 +126,7 @@ body {
     padding: 40px;
     transform: translate(-50%, -50%);
     background: #fb71ad;
-    box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
+    box-shadow: 0 15px 25px rgba(250, 4, 189, 0.7);
     border-radius: 10px;
   }
   .login-box h2 {
@@ -191,7 +192,7 @@ body {
   #register{
     font-size: 14px;
     text-decoration: none;
-    color: #950895;
+    color: #fff;
     margin: auto;
     width: 60%;
     text-align: center;
