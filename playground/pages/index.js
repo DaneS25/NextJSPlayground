@@ -12,18 +12,16 @@ export default function Home() {
           <h2>Login</h2>
           <form>
             <div class='user-box'>
-              <input type="text" name="" required=""/>
-              <label>username</label>
+              <input type="text" name="" required="" placeholder='username'/>
             </div>
             <div class='user-box'>
-            <input type="password" name="" required=""/>
-              <label>password</label>
+            <input type="password" name="" required="" placeholder='password'/>
             </div>
             <div class='button-form'>
               <a id="submit" href="#">submit</a>
               <div id="register">
                 Don't have an account?
-                <a href='#'>register</a>
+                <a href='#'>Register</a>
               </div>
             </div>
           </form>

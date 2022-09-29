@@ -146,6 +146,9 @@ body {
     outline: none;
     background: transparent;
   }
+  ::placeholder {
+    color: #fff;
+  }
   .login-box .user-box label {
     position: relative;
     left: 0;
